@@ -1,0 +1,15 @@
+string nome;
+string cidade;
+string email;
+
+
+Console.WriteLine("Qual seu nome?:");
+    nome = Console.ReadLine();
+Console.WriteLine("Qual sua cidade?:");
+    cidade = Console.ReadLine();
+Console.WriteLine("Qual seu email?:");
+    email = Console.ReadLine();
+Console.WriteLine("---------+---------");
+Console.WriteLine("Obrigado, Agora sei que seu nome é: " + nome);
+Console.WriteLine("Também sei que você mora em: " + cidade);
+Console.WriteLine("E sei que seu email é: " + email);
